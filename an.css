@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid rgb(32, 32, 184);
+  height: 300px;
+  width: 900px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+
+  background-color: rgba(166, 150, 150, 0.682);
+}
+.an2 {
+  margin: 10px;
+  background-color: rgba(166, 150, 150, 0.684);
+}
+.an2:hover {
+  background-color: rgba(13, 43, 69, 0.772);
+}
+
+.an1 {
+  border: none;
+  margin: 10px;
+  background-color: rgba(67, 60, 60, 0.683);
+}
+
+.an3 {
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 10px;
+  background-color: rgba(166, 150, 150, 0.683);
+  color: black;
+}
+
+.ann {
+  background-image: url(https://f59-zpg-r.zdn.vn/5366661312974558426/0f051307388aecd4b59b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
